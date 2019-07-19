@@ -15,7 +15,7 @@ protocol I___VARIABLE_productName:identifier___ViewController: class {
 }
 
 class ___VARIABLE_productName:identifier___ViewController: UIViewController {
-	weak var interactor: I___VARIABLE_productName:identifier___Interactor?
+	var interactor: I___VARIABLE_productName:identifier___Interactor?
 
 	override func viewDidLoad() {
         super.viewDidLoad()

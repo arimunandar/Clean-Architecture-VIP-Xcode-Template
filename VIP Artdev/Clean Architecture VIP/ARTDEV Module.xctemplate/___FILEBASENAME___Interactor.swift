@@ -15,7 +15,7 @@ protocol I___VARIABLE_productName:identifier___Interactor: class {
 }
 
 class ___VARIABLE_productName:identifier___Interactor: I___VARIABLE_productName:identifier___Interactor {
-    weak var presenter: I___VARIABLE_productName:identifier___Presenter?
+    var presenter: I___VARIABLE_productName:identifier___Presenter?
     var manager: I___VARIABLE_productName:identifier___Manager?
     var parameters: [String: Any]?
 
