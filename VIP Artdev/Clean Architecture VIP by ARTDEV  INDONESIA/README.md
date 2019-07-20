@@ -1,8 +1,8 @@
 # VIP + Dependency Injection Swift Template
 
-Swift 4
-XCode 9+
+Swift 5
+XCode 10+
 
 Clone this template in ```~/Library/Developer/Xcode/Templates```
 
-Install Swinject Library with ```pod 'Swinject'```
+`Alamofire and SwiftyJSON Library is required`
