@@ -30,11 +30,11 @@
 			<key>Identifier</key>
 			<string>viperModuleName</string>
 			<key>Name</key>
-			<string>Module name</string>
+			<string>This will be created a new file NetworkService.swift by dafault</string>
 			<key>Required</key>
-			<string>YES</string>
+			<string>NO</string>
 			<key>Type</key>
-			<string>text</string>
+			<string>static</string>
 		</dict>
 		<dict>
 			<key>Default</key>
