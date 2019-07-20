@@ -7,3 +7,4 @@ Xcode 10.2+
 How to use:
 
 clone this repo in `cd ~/Library/Developer/Xcode/Templates`
+This template is required `Alamofire and SwiftyJSON`
