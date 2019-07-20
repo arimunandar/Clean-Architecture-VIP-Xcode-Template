@@ -23,7 +23,7 @@ protocol IEndpoint {
 class NetworkService {
     static let share = NetworkService()
     
-    var dataRequest: DataRequest?
+    private var dataRequest: DataRequest?
     private var success: ((_ data: JSON?)->Void)?
     private var failure: ((_ error: Error?)->Void)?
     

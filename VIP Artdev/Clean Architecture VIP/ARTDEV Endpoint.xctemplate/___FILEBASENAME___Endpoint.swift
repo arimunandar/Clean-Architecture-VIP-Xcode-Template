@@ -14,8 +14,8 @@ import Alamofire
 enum ___VARIABLE_productName:identifier___Endpoint {
     /*
      Add Endpoint
-     case login
-     case login(parameter: [String: Any])
+     case sample
+     case sample(parameter: [String: Any])
     */
 }
 
@@ -25,7 +25,7 @@ extension ___VARIABLE_productName:identifier___Endpoint: IEndpoint {
         Do like this:
 
         switch self {
-        case .login:
+        case .sample:
             return .get
         }
         */
@@ -37,7 +37,7 @@ extension ___VARIABLE_productName:identifier___Endpoint: IEndpoint {
         Do like this:
 
         switch self {
-        case .login:
+        case .sample:
             return "https://httpbin.org/get"
         }
         */
@@ -49,7 +49,7 @@ extension ___VARIABLE_productName:identifier___Endpoint: IEndpoint {
         Do like this:
 
         switch self {
-        case .login(let model):
+        case .sample(let model):
             return model.parameter()
         }
         */
@@ -61,22 +61,21 @@ extension ___VARIABLE_productName:identifier___Endpoint: IEndpoint {
         Do like this:
 
         switch self {
-        case .login:
+        case .sample:
             return ["key": Any]
         }
         */
         return nil
     }
     
-    var encoding: ParameterEncoding {
-        
+    var encoding: ParameterEncoding {        
         /*
         Do like this:
         
         return URLEncoding.queryString for URL Query
         
         switch self {
-        case .login:
+        case .sample:
             return JSONEncoding.default
         }
         */

@@ -10,14 +10,14 @@
 
 import UIKit
 
-protocol I___VARIABLE_productName:identifier___Presenter: class {
+protocol I___VARIABLE_productName:identifier___Router: class {
 	// do someting...
 }
 
-class ___VARIABLE_productName:identifier___Presenter: I___VARIABLE_productName:identifier___Presenter {	
-	weak var view: I___VARIABLE_productName:identifier___ViewController?
+class ___VARIABLE_productName:identifier___Router: I___VARIABLE_productName:identifier___Router {	
+	weak var view: ___VARIABLE_productName:identifier___ViewController?
 	
-	init(view: I___VARIABLE_productName:identifier___ViewController?) {
+	init(view: ___VARIABLE_productName:identifier___ViewController?) {
 		self.view = view
 	}
 }

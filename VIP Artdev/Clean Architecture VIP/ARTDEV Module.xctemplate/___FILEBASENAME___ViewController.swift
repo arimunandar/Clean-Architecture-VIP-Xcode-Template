@@ -11,11 +11,12 @@
 import UIKit
 
 protocol I___VARIABLE_productName:identifier___ViewController: class {
-	// do someting...
+	var router: I___VARIABLE_productName:identifier___Router? { get set }
 }
 
 class ___VARIABLE_productName:identifier___ViewController: UIViewController {
 	var interactor: I___VARIABLE_productName:identifier___Interactor?
+	var router: I___VARIABLE_productName:identifier___Router?
 
 	override func viewDidLoad() {
         super.viewDidLoad()
