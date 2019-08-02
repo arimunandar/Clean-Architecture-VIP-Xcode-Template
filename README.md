@@ -15,4 +15,4 @@ https://youtu.be/R_GVog1rngw
 
 # Tutorial Setup New Project with VIP
 
-https://www.youtube.com/watch?v=JX7Bsoy-Nyk
+https://youtu.be/WGP-1b1WBz0
