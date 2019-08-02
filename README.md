@@ -11,7 +11,7 @@ This template is required `Alamofire and SwiftyJSON`
 
 # Tutorial Install VIP Template
 
-https://www.youtube.com/watch?v=JJBMrnuFZEM
+https://youtu.be/R_GVog1rngw
 
 # Tutorial Setup New Project with VIP
 
