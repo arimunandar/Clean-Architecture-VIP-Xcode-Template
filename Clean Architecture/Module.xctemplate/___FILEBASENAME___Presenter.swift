@@ -15,9 +15,9 @@ protocol I___VARIABLE_productName:identifier___Presenter: class {
 }
 
 class ___VARIABLE_productName:identifier___Presenter: I___VARIABLE_productName:identifier___Presenter {	
-	weak var view: I___VARIABLE_productName:identifier___ViewController?
+	weak var view: I___VARIABLE_productName:identifier___ViewController!
 	
-	init(view: I___VARIABLE_productName:identifier___ViewController?) {
+	init(view: I___VARIABLE_productName:identifier___ViewController) {
 		self.view = view
 	}
 }

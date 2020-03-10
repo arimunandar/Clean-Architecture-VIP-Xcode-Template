@@ -7,11 +7,11 @@
 //  Modify By:  * Ari Munandar
 //              * arimunandar.dev@gmail.com
 //              * https://github.com/arimunandar
+//              * https://www.youtube.com/channel/UC7jr8DR06tcVR0QKKl6cSNA?view_as=subscriber
 
 import Foundation
-import Swinject
 
-protocol I___VARIABLE_productName:identifier___Manager: class 	{
+protocol I___VARIABLE_productName:identifier___Manager: class {
 	// do someting...
 }
 
