@@ -9,12 +9,24 @@
 //              * https://github.com/arimunandar
 //              * https://www.youtube.com/channel/UC7jr8DR06tcVR0QKKl6cSNA?view_as=subscriber
 
-import Foundation
+import UIKit
 
-protocol I___VARIABLE_productName:identifier___Manager: class {
+protocol I___VARIABLE_productName:identifier___View: class {
 	// do someting...
 }
 
-class ___VARIABLE_productName:identifier___Manager: I___VARIABLE_productName:identifier___Manager {
+class ___VARIABLE_productName:identifier___View: UIView {
+	// do someting...
+}
+
+extension ___VARIABLE_productName:identifier___View: I___VARIABLE_productName:identifier___View {
+	// do someting...
+}
+
+extension ___VARIABLE_productName:identifier___View {
+	// do someting...
+}
+
+extension ___VARIABLE_productName:identifier___View {
 	// do someting...
 }

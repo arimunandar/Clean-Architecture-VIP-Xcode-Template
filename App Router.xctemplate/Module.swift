@@ -2,8 +2,8 @@
 //  Module.swift
 //  ARTDEVCommon
 //
-//  Created by Ari Munandar on 20/03/20.
-//  Copyright (c) 2020 ARI MUNANDAR. All rights reserved.
+//  Created by ___FULLUSERNAME___ on ___DATE___.
+//  Copyright (c) ___YEAR___ ARI MUNANDAR. All rights reserved.
 //  Modify By:  * Ari Munandar
 //              * arimunandar.dev@gmail.com
 //              * https://github.com/arimunandar

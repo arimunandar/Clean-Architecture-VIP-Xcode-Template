@@ -3,7 +3,7 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
+//  Copyright (c) ___YEAR___ ARI MUNANDAR. All rights reserved.
 //  Modify By:  * Ari Munandar
 //              * arimunandar.dev@gmail.com
 //              * https://github.com/arimunandar
