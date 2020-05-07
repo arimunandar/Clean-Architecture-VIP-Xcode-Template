@@ -137,6 +137,7 @@ public extension BaseAppRouter {
         
         guard window?.rootViewController != nil else {
             if presentType == .root {
+                navigationStack.removeAll()
                 if view is UITabBarController || view is UIPageViewController {
                     window?.rootViewController = view
                     guard let navigation = (view as? UITabBarController)?.selectedViewController as? UINavigationController else { return }
@@ -152,7 +153,16 @@ public extension BaseAppRouter {
         
         switch presentType {
         case .root:
-            navigation?.setViewControllers([view], animated: false)
+            navigationStack.removeAll()
+            if view is UITabBarController || view is UIPageViewController {
+                switchRootViewController(rootViewController: view, animated: true, completion: nil)                
+                guard let navigation = (view as? UITabBarController)?.selectedViewController as? UINavigationController else { return }
+                navigationStack.append(navigation)
+            } else {
+                let navigation = UINavigationController(rootViewController: view)
+                navigationStack.append(navigation)
+                switchRootViewController(rootViewController: navigation, animated: true, completion: nil)
+            }
         case .push:
             view.hidesBottomBarWhenPushed = true
             navigation?.pushViewController(view, animated: true)
@@ -174,6 +184,24 @@ public extension BaseAppRouter {
             nav.modalTransitionStyle = .crossDissolve
             navigation?.present(nav, animated: true, completion: nil)
             navigationStack.append(nav)
+        }
+    }
+    
+    func switchRootViewController(rootViewController: UIViewController, animated: Bool, completion: (() -> Void)?) {
+        guard let window = UIApplication.shared.keyWindow else { return }
+        if animated {
+            UIView.transition(with: window, duration: 0.5, options: .transitionCrossDissolve, animations: {
+                let oldState: Bool = UIView.areAnimationsEnabled
+                UIView.setAnimationsEnabled(false)
+                window.rootViewController = rootViewController
+                UIView.setAnimationsEnabled(oldState)
+            }, completion: { (_: Bool) -> Void in
+                if completion != nil {
+                    completion!()
+                }
+            })
+        } else {
+            window.rootViewController = rootViewController
         }
     }
     
