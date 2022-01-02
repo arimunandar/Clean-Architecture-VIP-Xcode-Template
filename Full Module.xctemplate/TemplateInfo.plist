@@ -30,11 +30,11 @@
 			<key>Identifier</key>
 			<string>viperModuleName</string>
 			<key>Name</key>
-			<string>This will be created a new file AppRouter.swift by dafault</string>
+			<string>Module name</string>
 			<key>Required</key>
-			<string>NO</string>
+			<string>YES</string>
 			<key>Type</key>
-			<string>static</string>
+			<string>text</string>
 		</dict>
 		<dict>
 			<key>Default</key>

@@ -28,7 +28,7 @@
 			<key>Default</key>
 			<string></string>
 			<key>Identifier</key>
-			<string>vipModuleName</string>
+			<string>viperModuleName</string>
 			<key>Name</key>
 			<string>Module name</string>
 			<key>Required</key>
@@ -38,7 +38,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_vipModuleName___</string>
+			<string>___VARIABLE_viperModuleName___</string>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Type</key>

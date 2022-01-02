@@ -3,13 +3,11 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//  Copyright (c) ___YEAR___ ARI MUNANDAR. All rights reserved.
-//  Modify By:  * Ari Munandar
-//              * arimunandar.dev@gmail.com
-//              * https://github.com/arimunandar
-//              * https://www.youtube.com/channel/UC7jr8DR06tcVR0QKKl6cSNA?view_as=subscriber
+//  Copyright (c) ___YEAR___ Stockbit - ARI MUNANDAR. All rights reserved.
 
 import UIKit
+
+// MARK: - ___VARIABLE_productName:identifier___Model
 
 struct ___VARIABLE_productName:identifier___Model {	
 	struct Request {
