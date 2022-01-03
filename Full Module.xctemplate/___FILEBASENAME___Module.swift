@@ -18,7 +18,8 @@ public class ___VARIABLE_productName:identifier___Module: IAppModule {
     }
 
     public func presentView(parameters: IAppParameter?) {
-        let wireframe = appRouter.resolver.resolve(I___VARIABLE_productName:identifier___Wireframe.self, argument: appRouter)!
+        let delegate = appRouter.resolver.resolve(___VARIABLE_productName:identifier___ViewController.self, argument: appRouter)!
+        let wireframe = appRouter.resolver.resolve(I___VARIABLE_productName:identifier___Wireframe.self, arguments: appRouter, delegate as ___VARIABLE_productName:identifier___ViewControllerDelegate)!
         wireframe.presentView()
     }
 
