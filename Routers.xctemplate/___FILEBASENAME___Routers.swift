@@ -13,7 +13,7 @@ public class ___VARIABLE_productName:identifier___Routers: IAppProductRouter {
     let router: IAppRouter
 
     let modules: [String: (IAppRouter) -> IAppModule] = [
-        // Register all module here...
+        // do someting...
     ]
 
     public init(router: IAppRouter) {
@@ -37,7 +37,8 @@ public class ___VARIABLE_productName:identifier___Routers: IAppProductRouter {
 
     open class func getAssemblies() -> [Assembly] {
         return [
-            // Register all Assembly here...
+            // do someting...
         ]
     }
 }
+
